@@ -1,0 +1,35 @@
+{
+  "recommendations": [
+    // theme
+    "fey.oscura",
+    "cev.overnight",
+    "dracula-theme.theme-dracula",
+    "gantoreno.vscode-vercel-theme",
+    "miguelsolorio.symbols",
+
+    // tool
+    "rid9.datetime",
+    "lokalise.i18n-ally",
+    "formulahendry.auto-close-tag",
+    "usernamehw.errorlens",
+    "yoavbls.pretty-ts-errors",
+    "christian-kohler.path-intellisense",
+    "maximus136.change-string-case",
+    "formulahendry.auto-rename-tag",
+    "steoates.autoimport",
+
+    // keymap
+    "k--kato.intellij-idea-keybindings",
+
+    // dev tools
+    "biomejs.biome",
+    "astro-build.astro-vscode",
+    "bradlc.vscode-tailwindcss",
+
+    // prettier
+    "esbenp.prettier-vscode",
+    //
+    "dbaeumer.vscode-eslint",
+
+  ]
+}

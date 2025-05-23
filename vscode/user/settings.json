@@ -1,0 +1,99 @@
+{
+    // Eslint
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+        "vue",
+        "html",
+        "json",
+        "jsonc",
+        "json5"
+    ],
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.format.enable": true,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    // Editor
+    "editor.tabSize": 2,
+    "editor.cursorBlinking": "expand",
+    "editor.stickyScroll.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Geist Mono Regular','Operator Mono', Menlo",
+    "editor.minimap.showSlider": "always",
+    "editor.letterSpacing": 1,
+    "editor.lineHeight": 1.7,
+    "editor.guides.bracketPairs": "active",
+    "editor.fontVariations": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.suggestSelection": "first",
+    "editor.hover.delay": 500,
+
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.selectionMode": "always",
+    "editor.codeLensFontFamily": "Geist Mono Regular",
+    "editor.formatOnPaste": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.quickSuggestionsDelay": 100,
+    "editor.accessibilitySupport": "off",
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.wordWrap": "on",
+    "editor.inlayHints.fontFamily": "'Geist Mono Regular'",
+
+    // workbench
+    "workbench.preferredLightColorTheme": "Vitesse Light",
+    "workbench.preferredDarkColorTheme": "Vitesse Black",
+    "workbench.iconTheme": "symbols",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorTheme": "Vercel (Light)",
+    "workbench.layoutControl.enabled": false,
+
+    // explorer
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.compactFolders": false,
+
+    // language
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+
+    // file
+    "files.associations": {
+        "*.mdx": "markdown"
+    },
+
+    // tool
+    /*plugin*/
+    "biome.enabled": false,
+
+    "errorLens.fontFamily": "Geist Mono Medium",
+    "errorLens.fontWeight": "600",
+    "errorLens.ignoreUntitled": true,
+    "errorLens.warningGutterIconColor": "#ff942f",
+    "errorLens.statusBarIconsEnabled": true,
+
+    "tailwindCSS.emmetCompletions": true,
+    "todo-tree.highlights.highlightDelay": 100,
+    "symbols.hidesExplorerArrows": false,
+
+    // terminal
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+
+    //
+}
